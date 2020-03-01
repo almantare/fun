@@ -1,0 +1,5 @@
+f = document.getElementsByClassName('friends_field_act');
+for(i = 0; i < f.length; i++)
+{
+Friends.deleteFriend(event, +f[i].getAttribute('href').substr(5), this);
+}
